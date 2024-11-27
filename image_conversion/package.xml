@@ -1,0 +1,21 @@
+<package format="2">
+  <name>image_conversion</name>
+  <version>0.0.1</version>
+  <description>ROS 2 image conversion package</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>std_srvs</depend>
+
+  <build_depend>OpenCV</build_depend>
+  <exec_depend>OpenCV</exec_depend>
+
+</package>
+
